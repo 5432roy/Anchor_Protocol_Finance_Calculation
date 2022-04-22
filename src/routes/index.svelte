@@ -1,5 +1,5 @@
 <script>
-    let title = "Anchor Protocol yield reserve calculator"
+    let title = "Anchor Protocol yield reserve calculator";
 </script>
 
 
@@ -10,4 +10,8 @@
 
 <div class="body">
     <h1>{title}</h1>
+
+    <form action= "/data.json" method="post">
+        <button>fetch</button>
+    </form>
 </div>
