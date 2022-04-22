@@ -4,6 +4,7 @@ tasks:
       echo 'init script' # runs during prebuild
       npm install
       npm run build
+      npm install axios
     command: |
       echo 'start script'
       export HMR_HOST=`gp url 3000` 
